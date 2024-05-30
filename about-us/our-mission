@@ -101,7 +101,7 @@
                 </li>
                                                                                                                     <li><a href=../for-candidates.html>For Candidates</a>
                                                                                                                     <li><a href=../for-employers.html>For Employers</a>
-                                                                                                                    <li><a href=https://ceek.current.jobs/>Jobs</a>
+                                                                                                                    <li><a href=https://jobport-app.netlify.app/>Jobs</a>
                                                                                                                 <li class="dropdown simple-dropdown"><a href=#>Insights</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                     <ul class="dropdown-menu" role="menu">
                                           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href=../news-and-resources.html>News &amp; Resources</a></li>
@@ -125,10 +125,10 @@
                 </form>
             </div>
             <div class="header-social-icon d-none d-md-inline-block alt-font text-normal">
-                <a href="https://ceek.current.jobs/login.aspx">Login</a>                      
+                <a href="https://jobport-app.netlify.app/login.aspx">Login</a>                      
             </div>
 						<div class="header-social-icon d-none d-md-inline-block alt-font text-normal">
-                <a href="https://ceek.current.jobs/register.aspx">Register</a>                          
+                <a href="https://jobport-app.netlify.app/register.aspx">Register</a>                          
             </div>
         </div>
     </div>
