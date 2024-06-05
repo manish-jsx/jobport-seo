@@ -111,6 +111,7 @@
   transition: color .2s, background-color .2s;
 }
 
+
 .primary-button:hover {
   background-color: var(--teal);
   color: var(--white-smoke);
@@ -513,7 +514,7 @@
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 1280px) {
   .hero-section-home-vid {
     background-size: cover;
     width: 100%;
