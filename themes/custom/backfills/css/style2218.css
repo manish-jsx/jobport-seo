@@ -59,7 +59,7 @@ input:focus, textarea:focus{ border-color: #585858 !important; outline: none; }
 input[type="button"]:focus, input:focus, textarea:focus, select:focus, .form-control:focus, .btn.focus, .btn:focus{ outline: none; box-shadow: none; }
 select::-ms-expand{ display:none;}
 iframe { border: 0;}
-p {margin: 0 0 25px}
+p {margin: 0 0 20px}
 b, strong { font-weight: 600;}
 .last-paragraph-no-margin p:last-of-type {margin-bottom:0}
 .alt-font strong {font-weight: 700 }
