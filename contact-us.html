@@ -28,7 +28,8 @@
   <meta name="HandheldFriendly" content="true" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf0ivEpAAAAAL4-dNSJZTOew3GvSMJtsPyfRI4K"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcgCfopAAAAADPUrvc4ZAlXAI-FBp9rmYqOgkMe"></script>
+  
   <script>
     function onSubmit(token) {
       document.getElementById("webform-submission-contact-node-7-add-form").submit();
@@ -269,7 +270,7 @@
                       data-drupal-selector="edit-actions" id="edit-actions">
                       <button
                         class="g-recaptcha webform-button--submit btn-backfills btn-backfills-accent btn button button--primary js-form-submit form-submit"
-                        data-sitekey="6Lf0ivEpAAAAAL4-dNSJZTOew3GvSMJtsPyfRI4K" data-callback='onSubmit'
+                        data-sitekey="6LcgCfopAAAAADPUrvc4ZAlXAI-FBp9rmYqOgkMe" data-callback='onSubmit'
                         data-action='submit'>
                         Submit
                       </button>
@@ -279,6 +280,8 @@
                     <input data-drupal-selector="edit-webform-submission-contact-node-7-add-form" type="hidden"
                       name="form_id" value="webform_submission_contact_node_7_add_form" />
                   </form>
+
+                 
 
 
 
@@ -426,8 +429,16 @@
   <script src="/core/misc/details-summarized-content.js?v=9.5.7"></script>
   <script src="/core/misc/details-aria.js?v=9.5.7"></script>
   <script src="/core/misc/collapse.js?v=9.5.7"></script>
+  
 
-
+  <script>
+    function onClick(e) {
+      e.preventDefault();
+      grecaptcha.enterprise.ready(async () => {
+        const token = await grecaptcha.enterprise.execute('6LcgCfopAAAAADPUrvc4ZAlXAI-FBp9rmYqOgkMe', {action: 'LOGIN'});
+      });
+    }
+  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110395585-1"></script>
   <script>
